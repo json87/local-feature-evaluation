@@ -13,13 +13,13 @@ The comparison of these networks for UAV images has been presented in our work:
 For the configuration of this package, please refer to the instruction in [1].
 
 ## Resources
-### descriptor
+### === descriptor
 
-tfeat (pytorch)
+#### tfeat (pytorch)
 
 https://github.com/vbalnt/tfeat
 
-L2-NET (MatConvNet)
+#### L2-NET (MatConvNet)
 
 https://github.com/yuruntian/L2-Net
 
@@ -47,50 +47,50 @@ WARNING: (1) change the path of cl.exe in vl_compilenn.m according to the versio
          e.g., for VS 2017, D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64
 	 (2) Matlab 2017b is the optimal version. When using other versions, link error maybe solved according to https://blog.csdn.net/u014292102/article/details/80331481
 
-hardnet (pytorch)
+#### hardnet (pytorch)
 
 https://github.com/DagnyT/hardnet
 
-geodesc (tensorflow)
+#### geodesc (tensorflow)
 
 https://github.com/lzx551402/geodesc
 
-contextdesc (tensorflow)
+#### contextdesc (tensorflow)
 
 https://github.com/lzx551402/contextdesc
 
-### descriptor and metric
+### === descriptor and metric
 
-deepcompare (torch)
+#### deepcompare (torch)
 
 https://github.com/szagoruyko/cvpr15deepcompare
 
-deepdesc (torch)
+#### deepdesc (torch)
 
 https://github.com/etrulls/deepdesc-release
 
-matchnet (caffe)
+#### matchnet (caffe)
 
 https://github.com/hanxf/matchnet
 
-### detector and descriptor
+### === detector and descriptor
 
-LIFT (tensorflow)
+#### LIFT (tensorflow)
 
 https://github.com/cvlab-epfl/LIFT
 
-super-point (tensorflow)
+#### super-point (tensorflow)
 
 https://github.com/rpautrat/SuperPoint
 
 SuperPoint only work on images with dimensions divisible by 8 and 
 the user is responsible for resizing them to a valid dimension.
 
-D2-NET (pytorch)
+#### D2-NET (pytorch)
 
 https://github.com/mihaidusmanu/d2-net
 
-R2D2 (pytorch)
+#### R2D2 (pytorch)
 
 https://github.com/naver/r2d2
 
