@@ -1,0 +1,5 @@
+set(FOLDER_NAME "tools")
+
+COLMAP_ADD_EXECUTABLE(vocab_tree_builder_float vocab_tree_builder_float.cc)
+COLMAP_ADD_EXECUTABLE(vocab_tree_retriever_float vocab_tree_retriever_float.cc)
+COLMAP_ADD_EXECUTABLE(match_statistic match_statistic.cc)
