@@ -1,16 +1,15 @@
 # An Evaluation of Learned Features
 
 ## Introduction
-An evaluation of local features learned from neural networks. This repository is an improved version of [1], which supports multi-camera datasets and includes some recent networks, e.g., matchnet, hardnet, geodesc, contextdesc, d2net, and superpoint.
 
-The comparison of these networks for UAV images has been presented in our work:
+An evaluation of local features learned from neural networks. This repository is an improved version of [the work](https://github.com/ahojnnes/local-feature-evaluation), which supports multi-camera datasets and includes some recent networks, e.g., matchnet, hardnet, geodesc, contextdesc, d2net, and superpoint.
+The comparison of these networks for UAV images has been presented in the [paper](https://ieeexplore.ieee.org/document/9573512):
 
-	"Jiang S, Jiang W, Guo B, et al. Learned local features for structure from motion of UAV images: a comparative evaluation[J]. 
-	IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2021, 14: 10583 - 10597."
-  
-[Paper](https://ieeexplore.ieee.org/document/9573512)
+![framework](https://github.com/json87/local-feature-evaluation/blob/main/doc/framework.jpg)
 
-For the configuration of this package, please refer to the instruction in [1].
+## Build
+
+For the configuration of this package, please refer to the [repo](https://github.com/ahojnnes/local-feature-evaluation).
 
 ## Resources
 ### === descriptor
@@ -96,6 +95,22 @@ https://github.com/naver/r2d2
 
 ## References
 
-[1] Schonberger J L , Hardmeier H , Sattler T , et al. Comparative Evaluation of Hand-Crafted and Learned Local Features[C]// IEEE Conference on Computer Vision & Pattern Recognition. IEEE Computer Society, 2017.
+```
+@article{
+  author={Jiang, San and Jiang, Wanshou and Guo, Bingxuan and Li, Lelin and Wang, Lizhe},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Learned Local Features for Structure From Motion of UAV Images: A Comparative Evaluation}, 
+  year={2021},
+  volume={14},
+  pages={10583-10597},
+}
 
-https://github.com/ahojnnes/local-feature-evaluation
+@INPROCEEDINGS{
+  author={Schönberger, Johannes L. and Hardmeier, Hans and Sattler, Torsten and Pollefeys, Marc},
+  booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Comparative Evaluation of Hand-Crafted and Learned Local Features}, 
+  year={2017},
+  pages={6959-6968},
+}
+
+```
