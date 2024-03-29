@@ -1,9 +1,8 @@
-# An Evaluation of Learned Features
+# Local feature evaluation
 
 ## Introduction
 
-An evaluation of local features learned from neural networks. This repository is an improved version of [the work](https://github.com/ahojnnes/local-feature-evaluation), which supports multi-camera datasets and includes some recent networks, e.g., matchnet, hardnet, geodesc, contextdesc, d2net, and superpoint.
-The comparison of these networks for UAV images has been presented in the [paper](https://ieeexplore.ieee.org/document/9573512):
+An evaluation of local features learned from neural networks. This repository is an improved version of [the work](https://github.com/ahojnnes/local-feature-evaluation), which supports multi-camera datasets and includes some recent networks, e.g., matchnet, hardnet, geodesc, contextdesc, d2net, and superpoint. The comparison of these networks for UAV images has been presented in the [paper](https://ieeexplore.ieee.org/document/9573512):
 
 ![framework](https://github.com/json87/local-feature-evaluation/blob/main/doc/framework.jpg)
 
